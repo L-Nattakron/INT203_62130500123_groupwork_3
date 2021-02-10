@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto
+}
+
+.title{
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+    text-align: center  
+}
+
+.card {
+    border: none;
+    cursor: pointer
+}
+
+.card-img-top{
+    object-fit: cover
+}
+
+.like{
+    color:red
+}
+
+.heart:hover {
+    color:palevioletred
+}
